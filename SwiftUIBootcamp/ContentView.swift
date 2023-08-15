@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HowToUseInitsAndEnumsInSwiftUI: View {
     
     let backgroundColor: Color
     let count: Int

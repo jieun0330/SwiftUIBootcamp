@@ -11,10 +11,7 @@ import SwiftUI
 struct SwiftUIBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            HStack {
-                ContentView(count: 100, fruit: .apple)
-                ContentView(count: 46, fruit: .orange)
-            }
+            HowToUseBinding()
         }
     }
 }
