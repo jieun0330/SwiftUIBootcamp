@@ -16,6 +16,7 @@
 		C29F5D832A8B3D670030C110 /* ExtractFunctionsAndViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F5D822A8B3D670030C110 /* ExtractFunctionsAndViews.swift */; };
 		C29F5D852A8B45800030C110 /* HowToExtractSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F5D842A8B45800030C110 /* HowToExtractSubviews.swift */; };
 		C29F5D872A8B4BFC0030C110 /* HowToUseBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F5D862A8B4BFC0030C110 /* HowToUseBinding.swift */; };
+		C29F5DB22A9796100030C110 /* HowToUseForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F5DB12A9796100030C110 /* HowToUseForEach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C29F5D822A8B3D670030C110 /* ExtractFunctionsAndViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractFunctionsAndViews.swift; sourceTree = "<group>"; };
 		C29F5D842A8B45800030C110 /* HowToExtractSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToExtractSubviews.swift; sourceTree = "<group>"; };
 		C29F5D862A8B4BFC0030C110 /* HowToUseBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseBinding.swift; sourceTree = "<group>"; };
+		C29F5DB12A9796100030C110 /* HowToUseForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseForEach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				C22FB80F2A8A5DCB00CBD41B /* SwiftUIBootcampApp.swift */,
 				C22FB8112A8A5DCB00CBD41B /* ContentView.swift */,
+				C29F5DB02A9795DD0030C110 /* 23.08.24 */,
 				C29F5D812A8B3D420030C110 /* 23.08.15 */,
 				C22FB8132A8A5DCC00CBD41B /* Assets.xcassets */,
 				C22FB8152A8A5DCC00CBD41B /* Preview Content */,
@@ -88,6 +91,14 @@
 				C29F5D862A8B4BFC0030C110 /* HowToUseBinding.swift */,
 			);
 			path = 23.08.15;
+			sourceTree = "<group>";
+		};
+		C29F5DB02A9795DD0030C110 /* 23.08.24 */ = {
+			isa = PBXGroup;
+			children = (
+				C29F5DB12A9796100030C110 /* HowToUseForEach.swift */,
+			);
+			path = 23.08.24;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 				C29F5D802A8B3A420030C110 /* HowToUseState.swift in Sources */,
 				C22FB8102A8A5DCB00CBD41B /* SwiftUIBootcampApp.swift in Sources */,
 				C29F5D7E2A8B38F50030C110 /* HowToUseForEach.swift in Sources */,
+				C29F5DB22A9796100030C110 /* HowToUseForEach.swift in Sources */,
 				C29F5D852A8B45800030C110 /* HowToExtractSubviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
